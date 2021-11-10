@@ -3,12 +3,12 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 # start up web driver
-driver = webdriver.Chrome(r"C:\Users\brig\Code\47fund\archive\selenium_testing\chromedriver")
+driver = webdriver.Chrome(r"C:\Users\brig\Code\selenium\chromedriver")
 
 # BYU SEARCH TEST
-driver.get('https://www.byu.edu/search-all')
-searchBar = driver.find_element_by_id('SearchResultsPageInput')
-searchBar.send_keys('test search')
+driver.get("https://www.byu.edu/search-all")
+searchBar = driver.find_element_by_id("SearchResultsPageInput")
+searchBar.send_keys("test search")
 searchBar.send_keys(Keys.ENTER)
 time.sleep(5)
 driver.close()
