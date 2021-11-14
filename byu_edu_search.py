@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 
 # start up web driver
-driver = webdriver.Chrome(r"C:\Users\brig\Code\selenium\chromedriver")
+driver = webdriver.Chrome()
 
 # BYU SEARCH TEST
 driver.get("https://www.byu.edu/search-all")
