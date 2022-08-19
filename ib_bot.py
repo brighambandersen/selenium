@@ -21,9 +21,7 @@ class IBBot:
         )
 
         # start up web driver
-        self.driver = webdriver.Chrome(
-            "C:\\Users\brig\Code\47fund\archive\selenium_testing\chromedriver", options=options
-        )
+        self.driver = webdriver.Chrome()
 
     def login(self):
         self.driver.get("https://localhost:5000/")
