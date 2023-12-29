@@ -7,8 +7,8 @@ import subprocess
 class IBBot:
     def __init__(self):
 
-        self.PAPER_USERNAME = "byusf3215"
-        self.PAPER_PASSWORD = "paper1234"
+        self.PAPER_USERNAME = "INTERACTIVE_BROKERS_USERNAME"
+        self.PAPER_PASSWORD = "INTERACTIVE_BROKERS_PASSWORD"
 
         # settings to avoid privacy warnings
         options = webdriver.ChromeOptions()
